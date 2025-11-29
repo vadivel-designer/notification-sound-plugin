@@ -1,0 +1,10 @@
+{
+  "name": "notification-sound",
+  "version": "1.0.0",
+  "description": "Plays a sound when Claude Code sends notifications",
+  "author": {
+    "name": "Vadivel"
+  },
+  "license": "MIT",
+  "hooks": "${CLAUDE_PLUGIN_ROOT}/hooks/hooks.json"
+}
