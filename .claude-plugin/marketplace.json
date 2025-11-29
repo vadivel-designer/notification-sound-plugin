@@ -1,18 +1,23 @@
 {
-  "name": "claude-code-sounds",
+  "name": "vadi-claude-plugins",
   "owner": {
     "name": "vadivel-designer",
     "email": ""
   },
   "metadata": {
-    "description": "Audio feedback plugin for Claude Code",
-    "version": "1.0.0"
+    "description": "Vadivel's Claude Code plugins - sounds, prompt optimization, and more",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "notification-sound",
       "source": "./.claude-plugin/plugins/notification-sound",
       "description": "Plays a sound when Claude Code sends notifications or stops"
+    },
+    {
+      "name": "prompt-pro",
+      "source": "./.claude-plugin/plugins/prompt-pro",
+      "description": "Professional prompt optimizer for Claude with smart question detection and 4-D methodology"
     }
   ]
 }

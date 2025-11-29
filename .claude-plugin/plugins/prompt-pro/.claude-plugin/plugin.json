@@ -1,0 +1,12 @@
+{
+  "name": "prompt-pro",
+  "version": "1.0.0",
+  "description": "Professional prompt optimizer for Claude with smart question detection and 4-D methodology",
+  "author": {
+    "name": "Vadivel",
+    "url": "https://github.com/vadivel-designer"
+  },
+  "license": "MIT",
+  "keywords": ["prompt", "optimization", "workflow", "claude"],
+  "commands": "./commands/"
+}
